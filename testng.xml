@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ContactManagementTestSuite" verbose="1" parallel="none">
+    <test name="FunctionalTests">
+        <classes>
+            <!-- Core Functionalities -->
+            <class name="test.SignupTest"/>
+            <class name="test.LoginTest"/>
+            <class name="test.ContactTests"/>
+            <class name="test.EditContactTest"/>
+            <class name="test.SessionNavigationTest"/>
+            <class name="test.UIValidationTest"/>
+        </classes>
+    </test>
+</suite>

@@ -30,14 +30,16 @@
             <version>4.20.0</version>
         </dependency>
 
-        <!-- TestNG -->
-        <dependency>
-            <groupId>org.testng</groupId>
-            <artifactId>testng</artifactId>
-            <version>7.9.0</version>
-            <scope>test</scope>
-        </dependency>
+       
+    <!-- ✅ Add this TestNG dependency -->
 
+        <dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.9.0</version>
+    </dependency>
+    
+    <!-- (other dependencies if any...) -->
         
         <!-- Extent Reports -->
         <dependency>
@@ -82,6 +84,7 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>testngseq.xml</suiteXmlFile>
                         <suiteXmlFile>testngpar.xml</suiteXmlFile>
+                        <suiteXmlFile>testng-master.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

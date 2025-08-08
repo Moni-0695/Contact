@@ -82,9 +82,7 @@
                 <version>3.2.5</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>testngseq.xml</suiteXmlFile>
-                        <suiteXmlFile>testngpar.xml</suiteXmlFile>
-                        <suiteXmlFile>testng-master.xml</suiteXmlFile>
+                        <suiteXmlFile>testngseq.xml</suiteXmlFile>                        
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

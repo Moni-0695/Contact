@@ -1,8 +1,13 @@
-<suite name="SequentialSuite" parallel="false">
+<suite name="ContactManagementTestSuite" verbose="1" parallel="none">
     <test name="SequentialTests">
         <classes>
-            <class name="test.LoginTest"/>
-            <class name="test.SignupTest"/>
+            <class name="test.LoginTest"/>               <!-- 1 -->
+            <class name="test.SignupTest"/>              <!-- 2 -->
+            <class name="test.ContactTests"/>           <!-- 3 -->
+            <class name="test.EditContactTest"/>        <!-- 4 -->
+            <class name="test.DeleteContactTest"/>      <!-- 5 -->
+            <class name="test.SessionNavigationTest"/>  <!-- 6 -->
+            <class name="test.UIValidationTest"/>       <!-- 7 -->
         </classes>
     </test>
 </suite>

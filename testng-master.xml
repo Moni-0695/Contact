@@ -1,6 +1,0 @@
-<suite name="MasterSuite">
-    <suite-files>
-        <suite-file path="testngseq.xml"/>
-        <suite-file path="testngpar.xml"/>
-    </suite-files>
-</suite>

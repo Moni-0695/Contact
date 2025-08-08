@@ -1,0 +1,8 @@
+<suite name="SequentialSuite" parallel="false">
+    <test name="SequentialTests">
+        <classes>
+            <class name="test.LoginTest"/>
+            <class name="test.SignupTest"/>
+        </classes>
+    </test>
+</suite>

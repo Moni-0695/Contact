@@ -31,7 +31,7 @@
         </dependency>
 
        
-    <!-- ✅ Add this TestNG dependency -->
+    <!-- ✅ TestNG dependency -->
 
         <dependency>
     <groupId>org.testng</groupId>
